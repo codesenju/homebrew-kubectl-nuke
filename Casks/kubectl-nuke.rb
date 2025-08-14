@@ -2,7 +2,7 @@
 cask "kubectl-nuke" do
   desc "kubectl plugin to forcefully delete Kubernetes resources"
   homepage "https://github.com/codesenju/kubectl-nuke-go"
-  version "0.9.2"
+  version "0.9.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,23 +12,23 @@ cask "kubectl-nuke" do
 
   on_macos do
     on_intel do
-      url "https://github.com/codesenju/kubectl-nuke-go/releases/download/v0.9.2/kubectl-nuke-go-darwin-amd64.tar.gz"
-      sha256 "188f203ee5e7ffd2c8d965cf15962c95d06aa5ba3a3ebab95f38bc22368f337c"
+      url "https://github.com/codesenju/kubectl-nuke-go/releases/download/v0.9.3/kubectl-nuke-go-darwin-amd64.tar.gz"
+      sha256 "d4cca94ec3ac034119dd0d3cd4e8abd1aa5aa6613d658daa65b722f369302fa0"
     end
     on_arm do
-      url "https://github.com/codesenju/kubectl-nuke-go/releases/download/v0.9.2/kubectl-nuke-go-darwin-arm64.tar.gz"
-      sha256 "9e42df92465ecc6b5b2b2c3d7204ea58d8348b395e907bc1baad20682df3e95e"
+      url "https://github.com/codesenju/kubectl-nuke-go/releases/download/v0.9.3/kubectl-nuke-go-darwin-arm64.tar.gz"
+      sha256 "1e709fe592e8eefecfdc8fbf216a74286d3cfdfc01a01283c57c60943fac045b"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/codesenju/kubectl-nuke-go/releases/download/v0.9.2/kubectl-nuke-go-linux-amd64.tar.gz"
-      sha256 "83025e6465ecc5aa3de90a5f688bb1ecab3ad7ef17a56db8ae3e81be842f2e63"
+      url "https://github.com/codesenju/kubectl-nuke-go/releases/download/v0.9.3/kubectl-nuke-go-linux-amd64.tar.gz"
+      sha256 "dc349aa45164e4d27fef0a9ebee16d8452f3dabbfe1b6febff1a85c00a1e86dd"
     end
     on_arm do
-      url "https://github.com/codesenju/kubectl-nuke-go/releases/download/v0.9.2/kubectl-nuke-go-linux-arm64.tar.gz"
-      sha256 "e3a0a949123ac98c6a4bb98c7cdca06484ae7be5df32af3ffde164030fe28bcb"
+      url "https://github.com/codesenju/kubectl-nuke-go/releases/download/v0.9.3/kubectl-nuke-go-linux-arm64.tar.gz"
+      sha256 "84191aca6390c4bfd879a54f38188c92a8f671c8603142b055f06a9d52b4d1f7"
     end
   end
 
